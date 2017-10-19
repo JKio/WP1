@@ -1,0 +1,75 @@
+0000.003 () Opened log file at time: Sun, 23 Jul 2017 22:37:22 +0000 on http://localhost:8888/wp1
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 7.1.1 (apache2handler, Darwin Myfiima_iMac_lan 15.6.0 Darwin Kernel Version 15.6.0: Tue Apr 11 16:00:51 PDT 2017; root:xnu-3248.60.11.5.3~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: de_DE Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.3M | 4M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 25034.6 MB
+0000.004 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.031 () Entity: db
+0000.031 () restore_backup(backup_file=backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-db.gz, type=db, info=a:0:{}, last_one=)
+0000.031 () Entpacke Sicherung... (backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-db.gz, 0 Mb)
+0000.037 () Database successfully unpacked
+0000.037 () Datenbank wiederherstellen (bei großen Websites kann das dauern - wenn der Vorgang in einen Timeout läuft (was passieren kann, wenn dein Webhoster die Ressourcen limitiert) solltest du andere Methoden, wie z.B. phpMyAdmin, nutzen) ...
+0000.038 () Using direct MySQL access; value of use_mysqli is: 1
+0000.050 () Max packet size: 32 MB
+0000.050 () Entering maintenance mode
+0000.050 () Anschalten des Wartungsmodus&#160;&hellip;
+0000.057 () Backup created by: 1.13.4
+0000.057 () Backup of: http://localhost:8888/wp1
+0000.058 () Content URL: http://localhost:8888/wp1/wp-content
+0000.058 () Uploads URL: http://localhost:8888/wp1/wp-content/uploads
+0000.058 () Old table prefix: wp1_
+0000.059 () Site information: multisite=0
+0000.060 () New table prefix: wp_
+0000.062 () Processing table (InnoDB): wp1_options - will restore as: wp_options
+0000.092 () Restoring prior UD configuration (table: wp_options; keys: 3)
+0000.097 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.097 () Options table fields changed OK
+0000.099 () Processing table (InnoDB): wp1_users - will restore as: wp_users
+0000.109 () Processing table (InnoDB): wp1_usermeta - will restore as: wp_usermeta
+0000.119 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.120 () Usermeta table fields changed OK
+0000.120 () Processing table (InnoDB): wp1_commentmeta - will restore as: wp_commentmeta
+0000.129 () Processing table (InnoDB): wp1_comments - will restore as: wp_comments
+0000.140 () Processing table (InnoDB): wp1_links - will restore as: wp_links
+0000.149 () Processing table (InnoDB): wp1_postmeta - will restore as: wp_postmeta
+0000.160 () Processing table (InnoDB): wp1_posts - will restore as: wp_posts
+0000.170 () Processing table (InnoDB): wp1_term_relationships - will restore as: wp_term_relationships
+0000.179 () Processing table (InnoDB): wp1_term_taxonomy - will restore as: wp_term_taxonomy
+0000.189 () Processing table (InnoDB): wp1_termmeta - will restore as: wp_termmeta
+0000.199 () Processing table (InnoDB): wp1_terms - will restore as: wp_terms
+0000.207 () Unlocking database and leaving maintenance mode
+0000.207 () Abschalten des Wartungsmodus&#160;&hellip;
+0000.207 () Finished: lines processed: 41 in 0.17 seconds
+0000.208 () Räume auf ...
+0000.213 () Entity: plugins
+0000.213 () restore_backup(backup_file=backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:38:"/Users/jk/sites/wp1/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.213 () Entpacke Sicherung... (backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-plugins.zip, 6 Mb)
+0000.660 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.660 () Moving old data: can potentially use wp_filesystem method / -old
+0000.660 () Entferne alte Daten ...
+0000.891 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0000.892 () Verschiebe entpackte Sicherung an Stelle ...
+0001.113 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0001.114 () Räume auf ...
+0001.116 () Entity: themes
+0001.116 () restore_backup(backup_file=backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-themes.zip, type=themes, info=a:2:{s:4:"path";s:37:"/Users/jk/sites/wp1/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0001.116 () Entpacke Sicherung... (backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-themes.zip, 2.2 Mb)
+0001.198 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.198 () Moving old data: can potentially use wp_filesystem method / -old
+0001.198 () Entferne alte Daten ...
+0001.241 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0001.242 () Verschiebe entpackte Sicherung an Stelle ...
+0001.272 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0001.273 () Räume auf ...
+0001.274 () Entity: uploads
+0001.274 () restore_backup(backup_file=backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:38:"/Users/jk/sites/wp1/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0001.275 () Entpacke Sicherung... (backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-uploads.zip, 0 Mb)
+0001.276 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.276 () Moving old data: can potentially use wp_filesystem method / -old
+0001.276 () Entferne alte Daten ...
+0001.277 () Verschiebe entpackte Sicherung an Stelle ...
+0001.278 () Räume auf ...
+0001.279 () Entity: others
+0001.279 () restore_backup(backup_file=backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-others.zip, type=others, info=a:2:{s:4:"path";s:30:"/Users/jk/sites/wp1/wp-content";s:11:"description";s:6:"Andere";}, last_one=1)
+0001.279 () Entpacke Sicherung... (backup_2017-07-24-0033_Wordpress_JK_1_300d6216e877-others.zip, 1.2 Mb)
+0001.372 () Räume auf ...
+0001.377 () Restore successful!
+0001.377 () Restore successful

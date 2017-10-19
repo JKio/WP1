@@ -1,0 +1,181 @@
+0000.000 (0) Opened log file at time: Sun, 23 Jul 2017 22:10:18 +0000 on http://localhost:8888/wp1
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.4 WP: 4.8 PHP: 7.1.1 (apache2handler, Darwin Myfiima_iMac_lan 15.6.0 Darwin Kernel Version 15.6.0: Tue Apr 11 16:00:51 PDT 2017; root:xnu-3248.60.11.5.3~1/RELEASE_X86_64 x86_64) MySQL: 5.6.35 WPLANG: de_DE Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.4M | 14M) multisite: N openssl: OpenSSL 1.0.2j  26 Sep 2016 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 25115.9 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.003 (0) Semaphore (fd, wp_options) being initialised
+0000.013 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Set semaphore last lock (fd) time to 2017-07-23 22:10:18
+0000.016 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=537464845d8a, begun at=1500847818 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1500848118) in case this run gets aborted
+0000.031 (0) Checking if we have a zip executable available
+0000.032 (0) Testing: /usr/bin/zip
+0000.046 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.047 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.048 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.050 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.066 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.068 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.083 (0) Working binary zip found: /usr/bin/zip
+0000.086 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.086 (0) Creation of backups of directories: beginning
+0000.096 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.119 (0) Total entities for the zip file: 189 directories, 1167 files (0 skipped as non-modified), 20 MB
+0000.123 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.126 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.129 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.132 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.135 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.136 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.5 MB, 1167 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.695 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: size is now: 5.20 MB
+0000.700 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 600 files added (on-disk size: 5290.3 KB)
+0000.703 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 700 files added (on-disk size: 5290.3 KB)
+0000.706 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 800 files added (on-disk size: 5290.3 KB)
+0000.709 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 900 files added (on-disk size: 5290.3 KB)
+0000.712 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 1000 files added (on-disk size: 5290.3 KB)
+0000.712 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 1167 files batched, 501 (1002) added so far); re-opening (prior size: 5290.3 KB)
+0000.902 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip.tmp: 1100 files added (on-disk size: 6008.3 KB)
+0001.052 (0) Created plugins zip (0) - 6188.6 KB in 1 s (6485.8 KB/s) (sha1: 19f51a13856bd9a2ce109a29265cb5077bc09a06, sha256: 98c479a30bd3d707b838d2eb28bfa3af6941ec80f1e6b6a85faf6b7502beef12)
+0001.054 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.059 (0) Total entities for the zip file: 24 directories, 144 files (0 skipped as non-modified), 2.9 MB
+0001.062 (0) Zip: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.173 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip.tmp: size is now: 2.20 MB
+0001.217 (0) Created themes zip (0) - 2264.7 KB in 0.2 s (14029.6 KB/s) (sha1: 41c61faf3bee7ae399d27b32444e28bf3695fac4, sha256: f843c131800b11a98c657ec7f2452f8dbb7a1dbcc13a5d5df9730df063a1442a)
+0001.220 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0001.221 (0) Looking for candidates to back up in: /Users/jk/sites/wp1/wp-content/uploads
+0001.221 (0) finding files: 2017: adding to list (1)
+0001.222 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0001.224 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0001.237 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip.tmp: size is now: 0.00 MB
+0001.242 (0) Created uploads zip (0) - 0.3 KB in 0 s (17.3 KB/s) (sha1: fde6e70bce881f5c7f1b267890254268fd0bf06a, sha256: f920a943325242b25f9d0c64c967a785674c03c824f99ba8b4ef49b7560f3a4d)
+0001.244 (0) Beginning backup of other directories found in the content directory (index: 0)
+0001.245 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0001.246 (0) Looking for candidates to back up in: /Users/jk/sites/wp1/wp-content
+0001.246 (0) finding files: index.php: adding to list (1)
+0001.247 (0) finding files: languages: adding to list (2)
+0001.248 (0) finding files: plugins: skipping: this is the plugins directory
+0001.248 (0) finding files: themes: skipping: this is the themes directory
+0001.249 (0) finding files: updraft: skipping: this is the updraft directory
+0001.249 (0) finding files: upgrade: skipping: excluded by options
+0001.250 (0) finding files: uploads: skipping: this is the uploads directory
+0001.252 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 2 MB
+0001.351 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip.tmp: size is now: 0.60 MB
+0001.367 (0) Created others zip (0) - 608 KB in 0.1 s (5233.6 KB/s) (sha1: ec47773289c68fce18b77acb2ad72a201208d621, sha256: 1fdeda2b43f663661f0acc26c48dc6572e3d0bebf9af434fae9d11715d327c61)
+0001.372 (0) Saving backup status to database (elements: 8)
+0001.374 (0) Beginning creation of database dump (WordPress DB)
+0001.408 (0) Table wp_options: Total expected rows (approximate): 332
+0001.420 (0) Table wp_options: Total rows added: 174 in 0.01 seconds
+0001.427 (0) Table wp_options: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_options.table.gz - 32.4 KB)
+0001.432 (0) Table wp_users: Total expected rows (approximate): 1
+0001.434 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0001.440 (0) Table wp_users: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_users.table.gz - 0.5 KB)
+0001.445 (0) Table wp_usermeta: Total expected rows (approximate): 17
+0001.448 (0) Table wp_usermeta: Total rows added: 17 in 0.00 seconds
+0001.454 (0) Table wp_usermeta: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_usermeta.table.gz - 0.9 KB)
+0001.459 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0001.461 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0001.467 (0) Table wp_commentmeta: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0001.471 (0) Table wp_comments: Total expected rows (approximate): 1
+0001.474 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0001.481 (0) Table wp_comments: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_comments.table.gz - 0.8 KB)
+0001.486 (0) Table wp_links: Total expected rows (approximate): 0
+0001.488 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0001.494 (0) Table wp_links: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_links.table.gz - 0.4 KB)
+0001.498 (0) Table wp_postmeta: Total expected rows (approximate): 1
+0001.500 (0) Table wp_postmeta: Total rows added: 1 in 0.00 seconds
+0001.506 (0) Table wp_postmeta: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_postmeta.table.gz - 0.4 KB)
+0001.511 (0) Table wp_posts: Total expected rows (approximate): 3
+0001.513 (0) Table wp_posts: Total rows added: 3 in 0.00 seconds
+0001.520 (0) Table wp_posts: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_posts.table.gz - 1.2 KB)
+0001.525 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0001.527 (0) Table wp_term_relationships: Total rows added: 1 in 0.00 seconds
+0001.534 (0) Table wp_term_relationships: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0001.539 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0001.542 (0) Table wp_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0001.548 (0) Table wp_term_taxonomy: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0001.553 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0001.554 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0001.560 (0) Table wp_termmeta: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_termmeta.table.gz - 0.4 KB)
+0001.565 (0) Table wp_terms: Total expected rows (approximate): 1
+0001.567 (0) Table wp_terms: Total rows added: 1 in 0.00 seconds
+0001.573 (0) Table wp_terms: finishing file (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_terms.table.gz - 0.4 KB)
+0001.578 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_options.table.gz (1/12): adding to final database dump
+0001.586 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_users.table.gz (2/12): adding to final database dump
+0001.588 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_usermeta.table.gz (3/12): adding to final database dump
+0001.589 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_commentmeta.table.gz (4/12): adding to final database dump
+0001.590 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_comments.table.gz (5/12): adding to final database dump
+0001.591 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_links.table.gz (6/12): adding to final database dump
+0001.592 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_postmeta.table.gz (7/12): adding to final database dump
+0001.593 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_posts.table.gz (8/12): adding to final database dump
+0001.594 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_term_relationships.table.gz (9/12): adding to final database dump
+0001.595 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_term_taxonomy.table.gz (10/12): adding to final database dump
+0001.596 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_termmeta.table.gz (11/12): adding to final database dump
+0001.597 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db-table-wp_terms.table.gz (12/12): adding to final database dump
+0001.597 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz: finished writing out complete database file (16 KB)
+0001.610 (0) Total database tables backed up: 12 (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz, size: 36497, sha256)
+0001.615 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0001.615 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0001.616 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0001.617 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0001.617 (0) backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.618 (0) Saving backup history. Total backup size: 8.9 MB
+0001.619 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0001.622 (0) Cloud backup selection (1/1): dropbox (last)
+0001.623 (0) Beginning dispatch of backup to remote (dropbox)
+0001.624 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0001.628 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0002.087 (0) Dropbox quota usage: used=2699.5 MB, total=5376 MB, available=2676.5 MB
+0002.089 (0) Dropbox: Attempt to upload: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip to: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip
+0004.984 (0) Dropbox chunked upload: 16.5 % uploaded (AAAAAAAAMVi9FxX8_iEMWg, 1048576, 1536 KB)
+0008.563 (0) Dropbox chunked upload: 41.4 % uploaded (AAAAAAAAMVi9FxX8_iEMWg, 2621440, 2048 KB)
+0013.862 (0) Dropbox chunked upload: 74.5 % uploaded (AAAAAAAAMVi9FxX8_iEMWg, 4718592, 2560 KB)
+0017.863 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMVi9FxX8_iEMWg, 6337123, 2560 KB)
+0019.978 (0) Recording as successfully uploaded: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip (408a685e368c5811e48d1a4093fe7f4e)
+0019.983 (0) Deleting local file: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip: OK
+0019.984 (0) Dropbox: File upload success (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-plugins.zip): 6188 KB in 17s (345 KB/s)
+0020.418 (0) Dropbox quota usage: used=2705.6 MB, total=5376 MB, available=2670.4 MB
+0020.420 (0) Dropbox: Attempt to upload: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip to: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip
+0025.295 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMVme7qOBEWMfnw, 2319038, 2560 KB)
+0027.516 (0) Recording as successfully uploaded: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip (828a4fd9d3186042b452159f953e1ce9)
+0027.520 (0) Deleting local file: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip: OK
+0027.521 (0) Dropbox: File upload success (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-themes.zip): 2264 KB in 7s (318 KB/s)
+0027.921 (0) Dropbox quota usage: used=2707.8 MB, total=5376 MB, available=2668.2 MB
+0027.923 (0) Dropbox: Attempt to upload: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip to: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip
+0028.615 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMVplgo8IuGXmSw, 336, 2560 KB)
+0029.876 (0) Recording as successfully uploaded: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip (aab65d563840eb0be4ec8dfa72619ad2)
+0029.879 (0) Deleting local file: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip: OK
+0029.880 (0) Dropbox: File upload success (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-uploads.zip): 0 KB in 1s (0 KB/s)
+0030.258 (0) Dropbox quota usage: used=2707.8 MB, total=5376 MB, available=2668.2 MB
+0030.259 (0) Dropbox: Attempt to upload: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip to: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip
+0032.048 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMVtyHN1rgHH61Q, 622569, 2560 KB)
+0033.593 (0) Recording as successfully uploaded: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip (a297818f624869bcf1b0cb72b4e90588)
+0033.597 (0) Deleting local file: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip: OK
+0033.598 (0) Dropbox: File upload success (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-others.zip): 607 KB in 3s (182 KB/s)
+0034.004 (0) Dropbox quota usage: used=2708.4 MB, total=5376 MB, available=2667.6 MB
+0034.005 (0) Dropbox: Attempt to upload: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz to: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz
+0034.695 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAMVz31E_kpp8qaw, 36497, 2560 KB)
+0037.079 (0) Recording as successfully uploaded: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz (6aa958d98f64e31302d7fc51f11d3a66)
+0037.083 (0) Deleting local file: backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz: OK
+0037.084 (0) Dropbox: File upload success (backup_2017-07-24-0010_Wordpress_JK_1_537464845d8a-db.gz): 35 KB in 3s (11 KB/s)
+0037.086 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=10
+0037.087 (0) Number of backup sets in history: 1; groups (db): 1
+0037.088 (0) Examining (for databases) backup set with group_id=0, nonce=537464845d8a, datestamp=1500847818 (Jul 23 2017 22:10:18)
+0037.088 (0) This backup set is the backup set just made, so will not be deleted.
+0037.089 (0) Number of backup sets in history: 1; groups (files): 1
+0037.090 (0) Examining (for files) backup set with nonce=537464845d8a, datestamp=1500847818 (Jul 23 2017 22:10:18)
+0037.091 (0) This backup set is the backup set just made, so will not be deleted.
+0037.091 (0) This backup set is the backup set just made, so will not be deleted.
+0037.091 (0) This backup set is the backup set just made, so will not be deleted.
+0037.091 (0) This backup set is the backup set just made, so will not be deleted.
+0037.092 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0037.092 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0037.094 (0) Resume backup (537464845d8a, 0): finish run
+0037.096 (0) Decremented the semaphore (fd) by 1
+0037.097 (0) Semaphore (fd) unlocked
+0037.097 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0037.100 (0) The backup apparently succeeded and is now complete
+0037.101 (0) Fetching RSS news feed
+0037.833 (0) Fetched RSS news feed; result is a: SimplePie
+0037.840 (0) Sending email ('Dateien und Datenbank (Volle Sicherung)') report (attachments: 0, size: 0 KB) to: knech...
+0037.900 (0) Die Sicherung war anscheinend erfolgreich und ist nun vollständig

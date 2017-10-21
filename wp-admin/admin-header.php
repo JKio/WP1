@@ -41,6 +41,7 @@ if ( is_network_admin() ) {
 } else {
 	$admin_title = get_bloginfo( 'name' );
 }
+
 if ( $admin_title == $title ) {
 	/* translators: Admin screen title. 1: Admin screen name */
 	$admin_title = sprintf( __( '%1$s &#8212; WordPress' ), $title );
